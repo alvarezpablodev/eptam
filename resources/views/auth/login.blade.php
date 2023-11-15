@@ -4,6 +4,7 @@
         Inicio de Sesion
 @endsection --}}
 
+
 @section('contenido')
         <div class="md:flex md:justify-center md:gap-4 md:items-center"> 
                         <div class="md:w-4/12">
@@ -30,7 +31,7 @@
                                         id="name",
                                         name="name",
                                         type="password",
-                                        placeholder="Contraseña",
+                                        placeholder="password",
                                         class="border p-3 w-full  rounded-lg"
                                         />
                                 </div>
